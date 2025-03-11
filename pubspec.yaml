@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_native_splash: ^2.4.1
+  flutter_launcher_icons: ^0.13.1
 
 dev_dependencies:
   flutter_test:
@@ -18,3 +20,20 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+flutter_native_splash:
+  color: "#ffffff"  
+  image: assets/logo_happyfoods.png  
+  android: true
+  ios: true
+  fullscreen: true
+  android_12:
+    image: assets/logo_happyfoods.png
+    icon_background_color: "#ffffff"
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo_happyfoods.png"  
+  adaptive_icon_background: "#ffffff"  
+  adaptive_icon_foreground: "assets/logo_happyfoods.png"    
