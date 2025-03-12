@@ -23,17 +23,16 @@ flutter:
 
 flutter_native_splash:
   color: "#ffffff"  
-  image: assets/logo_happyfoods.png  
+  image: assets/hfs.png 
   android: true
   ios: true
-  fullscreen: true
   android_12:
-    image: assets/logo_happyfoods.png
+    image: assets/hfs.png
     icon_background_color: "#ffffff"
 
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/logo_happyfoods.png"  
+  image_path: "assets/hfs.png"
   adaptive_icon_background: "#ffffff"  
-  adaptive_icon_foreground: "assets/logo_happyfoods.png"    
+  adaptive_icon_foreground: "assets/hfs.png"    
