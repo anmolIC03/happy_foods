@@ -23,16 +23,16 @@ flutter:
 
 flutter_native_splash:
   color: "#ffffff"  
-  image: assets/hfs.png 
+  image: assets/abc.png 
   android: true
   ios: true
   android_12:
-    image: assets/hfs.png
+    image: assets/abc.png
     icon_background_color: "#ffffff"
 
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/hfs.png"
+  image_path: "assets/abc.png"
   adaptive_icon_background: "#ffffff"  
-  adaptive_icon_foreground: "assets/hfs.png"    
+  adaptive_icon_foreground: "assets/abc.png"    
